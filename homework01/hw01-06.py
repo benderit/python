@@ -11,5 +11,6 @@ x = a1
 while x < b1:
     x = float(x*1.1)
     d = d + 1
+    print(str(d)+" день: "+str(round(x,2))+ " км")
 
 print("Цель будет достигнута на "+str(d)+" день")
