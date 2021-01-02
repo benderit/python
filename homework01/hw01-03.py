@@ -7,4 +7,4 @@ s3=s1+s2
 a1=int(s1)
 a2=int(s2)
 a3=int(s3)
-print(s1+" + "+s2+" + "+s3+" = "+str(a1+a2+a3))
+print(f"{s1} {s2} {s3} = {a1+a2+a3}")
